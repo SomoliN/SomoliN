@@ -45,7 +45,7 @@ for (i=0; i<p.length; i++) {
   var z = p[i][1];
   p[i] = new THREE.Vector3(x,y,z);
 }
-var path = new THREE.CatmullRomCurve3(p);
+let path = new THREE.CatmullRomCurve3(p);
 var geometry = new THREE.TubeGeometry(path,tubularSegments,tubeRadius,radialSegments,true);
 
 hue = hs;
