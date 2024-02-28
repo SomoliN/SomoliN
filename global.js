@@ -56,7 +56,7 @@ for(i=0; i<geometry.faces.length; i++){
   geometry.faces[i].color = new THREE.Color("hsl("+hue+",100%,50%)");
 }
 
-var material = new THREE.MeshLambertMaterial({
+const material = new THREE.MeshLambertMaterial({
   side: THREE.BackSide,
   vertexColors: THREE.FaceColors,
   wireframe: true
