@@ -25,7 +25,7 @@ var renderer = new THREE.WebGLRenderer({
 renderer.setSize(w, h);
 
 var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera(60, w / h, .001, 1000);
+var camera = new THREE.PerspectiveCamera(60, w / h, .001, 500);
 
 var starsGeometry = new THREE.Geometry();
 for(i=0; i<3000; i++){
