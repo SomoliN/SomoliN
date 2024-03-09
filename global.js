@@ -13,8 +13,6 @@ radialSegments = 3;
 tubeRadius = 2;
 ambientLight = 0x222222;
 lightColor = 0xffffff;
-lightIntensity = 1;
-lightDistance = 20;
 hs = 0; // Hue-Start
 he = 360; // Hue-End
 
