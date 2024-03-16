@@ -68,8 +68,7 @@ scene.add(light);
 var light2 = new THREE.AmbientLight(ambientLight);
 scene.add(light2);
 
-var l1 = new THREE.PointLight(lightColor, lightIntensity, lightDistance);
-scene.add(l1);
+
 var l2 = new THREE.PointLight(lightColor, lightIntensity, lightDistance);
 scene.add(l2);
 var l3 = new THREE.PointLight(lightColor, lightIntensity, lightDistance);
