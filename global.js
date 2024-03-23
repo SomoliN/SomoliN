@@ -84,7 +84,7 @@ function render(){
   pct += cameraSpeed
   pct2 += lightSpeed;
   var pt1 = path.getPointAt(pct%1);
-  var pt2 = path.getPointAt((pct + .01)%1);
+  var pt2 = path.getPointAt((pct + .20)%1);
   camera.position.set(pt1.x,pt1.y,pt1.z);
   camera.lookAt(pt2);
   light.position.set(pt2.x, pt2.y, pt2.z);
